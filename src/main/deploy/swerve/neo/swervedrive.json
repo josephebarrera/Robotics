@@ -7,14 +7,14 @@ import edu.wpi.first.math.util.Units;
 
 SwerveDrive swerveDrive=new SwerveParser(new File(Filesystem.getDeployDirectory(),"swerve")).createSwerveDrive(Units.feetToMeters(14.5));
 
+//Done and checked at 7:04 PM
 {
-  "$schema": "https://broncbotz3481.github.io/YAGSL-Example/schemas/swervedrive_schema.json",
   "imu": {
-    "type": "pigeon2",
-    "id": 13,
-    "canbus": "canivore"
+    "type": "navx",
+    "id": 0,
+    "canbus": "null"
   },
-  "invertedIMU": true,
+  "invertedIMU": false,
   "modules": [
     "frontleft.json",
     "frontright.json",
