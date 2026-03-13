@@ -1,4 +1,4 @@
-//Done and checked at 7:07 PM
+ 
 {
   "optimalVoltage": 12,
   "robotMass": 75,
@@ -9,12 +9,12 @@
   },
   "conversionFactors": {
     "angle": {
-      "gearRatio": 21.428,
+      "gearRatio": 26,
       "factor": 0
     },
     "drive": {
       "diameter": 4,
-      "gearRatio": 6.75,
+      "gearRatio": 7.03,
       "factor": 0
     }
   },
