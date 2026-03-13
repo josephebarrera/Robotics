@@ -1,4 +1,4 @@
-//Based off the information that was sent to me via link by Brandon on text messages
+
 import java.io.File;
 import edu.wpi.first.wpilibj.Filesystem;
 import swervelib.parser.SwerveParser;
@@ -7,7 +7,7 @@ import edu.wpi.first.math.util.Units;
 
 SwerveDrive swerveDrive=new SwerveParser(new File(Filesystem.getDeployDirectory(),"swerve")).createSwerveDrive(Units.feetToMeters(14.5));
 
-//Done and checked at 7:04 PM
+
 {
   "imu": {
     "type": "navx",
